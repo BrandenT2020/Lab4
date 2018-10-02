@@ -1,0 +1,17 @@
+body
+{
+    font-family: arial;
+    background-color: blue;
+    color: white;
+    font-size: 16pt;
+    vertical-align:middle;
+
+    background-image: url(rocket.jpg);
+    background-size: 40%;
+}
+
+h1:hover.title
+{
+    background-color: red;
+    color: blue
+}

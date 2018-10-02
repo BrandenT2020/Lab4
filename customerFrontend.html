@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title> Store</title>
+		    <script src = "formChecker.js"> </script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    
+
+    <body>
+
+
+        <form name = "form" action="customerBackend.php" onsubmit = "return inputCheck()" method="GET">
+            Email: <input type = "text" name = "email" id = "email" />
+            Password: <input type = "text" name = "password" id = "password" />
+
+            <br>
+            <br>
+            <br>
+            <img src="apple.jpg"
+            width="175" height="180" />
+            <br>
+            Apples cost $1.50<br>
+            Number of Apples: <input type = "number" name = "numApples" />
+            <br>
+            <img src="orange.jpg"
+            width="175" height="180" />
+            <br>
+            Oranges cost $2.00<br>
+            Number of Oranges: <input type = "number" name = "numOranges" /><br>
+            <br>
+            <img src="banana.jpg"
+            width="175" height="180" />
+            <br>
+            Bananas cost $0.75 <br>
+            Number of Bananas: <input type = "number" name = "numBananas" />
+
+            <br>
+            <br>
+            Chooses your shipping:<br>
+            <input type = "radio" name = "ship" value = "7 day"> Free 7 day<br>
+            <input type = "radio" name = "ship" value = "over night"> $50.00 over night<br>
+            <input type = "radio" name = "ship" value = "three day"> $5.00 three day<br>
+
+      		  <input type="submit" value="Checkout!">
+
+		</form>
+
+    </body>
+
+</html>
